@@ -236,6 +236,6 @@ path = "tests/multipart.rs"
 required-features = ["multipart"]
 
 [patch.crates-io]
-hyper = { git = "https://github.com/Robeartt/hyper" }
+hyper = { git = "https://github.com/Robeartt/hyper", branch = "0.14.x" }
 h2 = { git = "https://github.com/Robeartt/h2" }
 rustls = { git = "https://github.com/Robeartt/rustls", branch = "rustls"}
